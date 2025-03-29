@@ -69,4 +69,6 @@ if __name__ == "__main__":
     )
 
     model_trainer = ModelTrainer()
-    print(f'Best model R2 score:'{model_trainer.initiate_model_trainer(train_arr, test_arr)})
+    print(
+        f"Best model R2 score:{model_trainer.initiate_model_trainer(train_arr, test_arr)}"
+    )
